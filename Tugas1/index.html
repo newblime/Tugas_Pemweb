@@ -27,16 +27,26 @@
       src: url(../asset/Cocogoose-Classic-Medium-trial.ttf);
     }
 
+
+    html{
+      scroll-behavior: smooth;
+    }
+
+    .hidden{
+      color: rgba(0, 0, 0, 0);
+      font-size: 0vw;
+    }
+
     .navbar {
       background-image: linear-gradient(
-        rgba(255, 255, 255, 0.9),
+        rgba(255, 255, 255, 0.7) 70%,
         rgba(0, 0, 0, 0)
       );
       position: sticky;
       margin-left: -50%;
       margin-top: -3vw;
       width: 200%;
-      height: 5vw;
+      height: 3.5vw;
 
       top: 0;
       bottom: 0;
@@ -251,6 +261,7 @@
         font-size: 15px;
         font-weight: 350;
     }
+
   </style>
 
   <head>
@@ -258,8 +269,9 @@
     <!--<link rel="stylesheet" href="/Tugas1/index.css" />-->
   </head>
 
-  <!--Header-->
   <body class="background">
+    
+    <!--Header-->
     <div class="navbar">
       <table style="margin-left: 33%">
         <tr>
@@ -270,88 +282,95 @@
           </td>
           <td>
             <div id="navbar-text-pos">
-              <button type="button" class="navbar-text-btn">Home</button>
+              <button type="button" onclick="window.location.href='#home-section';" class="navbar-text-btn">Home</button>
             </div>
           </td>
           <td>
             <div id="navbar-text-pos">
-              <button type="button" class="navbar-text-btn">About Us</button>
+              <button type="button" onclick="window.location.href='#about-section';" class="navbar-text-btn">About Us</button>
             </div>
           </td>
           <td>
             <div id="navbar-text-pos">
-              <button type="button" class="navbar-text-btn">Service</button>
+              <button type="button" onclick="window.location.href='#service-section';" class="navbar-text-btn">Service</button>
             </div>
           </td>
           <td>
             <div id="navbar-text-pos">
-              <button type="button" class="navbar-text-btn">Why Us</button>
+              <button type="button" onclick="window.location.href='#whyus-section';" class="navbar-text-btn">Why Us</button>
             </div>
           </td>
           <td>
             <div id="navbar-text-pos">
-              <button type="button" class="navbar-text-btn">Find Us</button>
+              <button type="button" onclick="window.location.href='#findus-section';" class="navbar-text-btn">Find Us</button>
             </div>
           </td>
         </tr>
       </table>
     </div>
-
-    <div class="header-title">Santai Dulu Gak Si ?</div>
-
-    <div class="header-desc">Hilangkan penat, liburan bersama kami</div>
-
-    <div class="mitra-title">Mitra :</div>
-
-    <div class="mitra-logo-pos">
-      <table>
-        <tr>
-          <td>
-            <img src="../asset/Logo_mitra1.webp" class="mitra-logo" />
-          </td>
-
-          <td>
-            <img src="../asset/Logo_mitra2.png" class="mitra-logo" />
-          </td>
-
-          <td>
-            <img src="../asset/Logo_mitra3.png" class="mitra-logo" />
-          </td>
-        </tr>
-      </table>
+      
+    <div id="home-section">
+      <div class="hidden">_</div>
+      <div class="header-title">Santai Dulu Gak Si ?</div>
+      
+      <div class="header-desc">Hilangkan penat, liburan bersama kami</div>
+  
+      <div class="mitra-title">Mitra :</div>
+  
+      <div class="mitra-logo-pos">
+        <table>
+          <tr>
+            <td>
+              <img src="../asset/Logo_mitra1.webp" class="mitra-logo" />
+            </td>
+  
+            <td>
+              <img src="../asset/Logo_mitra2.png" class="mitra-logo" />
+            </td>
+  
+            <td>
+              <img src="../asset/Logo_mitra3.png" class="mitra-logo" />
+            </td>
+          </tr>
+        </table>
+      </div>
     </div>
 
-    <div style="margin-top: 20vw"></div>
+    <div style="margin-top: 12vw"></div>
 
     <!--about Company-->
-
-    <div class="image-container">
-      <img src="../asset/About 2.png" class="footage-2" />
-      <img src="../asset/About 1.png" class="footage-1" />
-      <img src="../asset/about 3.png" class="footage-3" />
-      <div class="content-text">
-        <div>
-          <h2 class="about-me">About</h2>
-          <h1 class="about-healing">HEALING</h1>
-          <p class="content-healing">
-            Healing merupakan sebuah perusahaan yang bergerak di bidang jasa
-            travel yang menyediakan berbagai macam paket wisata dan layanan
-            perjalanan yang lengkap dan berkualitas tinggi. Kami menyediakan
-            beberapa layanan pada websitenya yang seperti travel, transportasi,
-            dan penginapan. Kami memberikan kemudahan bagi kalian yang ingin
-            liburan untuk memilih dan memesan paket wisata sesuai dengan
-            kebutuhan dan preferensi pengguna. Healing juga memberikan pelayanan
-            yang terbaik dan berusaha memastikan kepuasan pelanggan dalam setiap
-            perjalanan.
-          </p>
+    <div id="about-section">
+      <div class="hidden">_</div>
+      <div style="margin-top: 8vw"></div>
+  
+      <div class="image-container">
+        <img src="../asset/About 2.png" class="footage-2" />
+        <img src="../asset/About 1.png" class="footage-1" />
+        <img src="../asset/about 3.png" class="footage-3" />
+        <div class="content-text">
+          <div>
+            <h2 class="about-me">About</h2>
+            <h1 class="about-healing">HEALING</h1>
+            <p class="content-healing">
+              Healing merupakan sebuah perusahaan yang bergerak di bidang jasa
+              travel yang menyediakan berbagai macam paket wisata dan layanan
+              perjalanan yang lengkap dan berkualitas tinggi. Kami menyediakan
+              beberapa layanan pada websitenya yang seperti travel, transportasi,
+              dan penginapan. Kami memberikan kemudahan bagi kalian yang ingin
+              liburan untuk memilih dan memesan paket wisata sesuai dengan
+              kebutuhan dan preferensi pengguna. Healing juga memberikan pelayanan
+              yang terbaik dan berusaha memastikan kepuasan pelanggan dalam setiap
+              perjalanan.
+            </p>
+          </div>
         </div>
       </div>
     </div>
     
     <div style="margin-top: 20vw"></div>
     
-    <div class="container-service">
-      <div style="background-color: rgba(0,0,0,0);">_</div>
+    <div class="container-service" id="service-section">
+      <div class="hidden">_</div>
       <h2 style="margin-top: 100px; color: white;" align="center">SERVICE</h2>
       <h2 style="margin-top: 60px; color:white" align="center"><b>Menjangkau Hingga Seluruh Dunia</b></h2>
       <div style="display: flex; align-items: center; justify-content: center;">
@@ -391,6 +410,5 @@
         </table>
       </div>
     </div>
-
   </body>
 </html>
