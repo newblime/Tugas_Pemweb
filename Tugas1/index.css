@@ -1,0 +1,58 @@
+.image-container {
+  width: 50%;
+  display: grid;
+  grid-template-areas: "a b"
+  "a c";
+  align-items: center;
+}
+
+.footage-2 {
+  grid-area: a;
+  width: 100%;
+}
+
+.footage-1 {
+  grid-area: b;
+  width: 100%;
+}
+
+.footage-3 {
+  grid-area: c;
+  width: 100%;
+}
+
+
+.about-me {
+  font-family: "Cocogoose Classic Trial";
+  font-size:33px;
+}
+
+.about-healing{
+  font-family: "Cocogoose Pro";
+  color : #3896ee;
+  font-size: 60px;
+}
+
+.content-healing{
+
+  font-size: 25px;
+  font-family: "Louis George Cafe";
+}
+
+.content-text{
+  text-align: left;
+  position: absolute;
+  left: 0;
+  background-color: antiquewhite;
+  z-index: -333;
+  display: flex;
+  justify-content: end;
+  padding-right: 10em;
+  padding-left: 20em;
+}
+
+.content-text div {
+  width: 50%;
+}
+
+
