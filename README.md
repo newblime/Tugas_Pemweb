@@ -2,6 +2,10 @@
 
 TUGAS PEMROGRAMAN WEB
 
+Kelompok 4 :
+1. Bintang Jagad Syah Sana (21081010005)
+2. Farrel Tiuraka Vierino (21081010222)
+
 Membuat "Company Profile" Berbasis Web
 
 Uraian Tugas
